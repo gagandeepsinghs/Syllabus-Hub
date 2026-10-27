@@ -394,8 +394,8 @@ export default function SyllabusPage() {
           <div className="flex-1 overflow-auto p-4 sm:p-8">
             <div className="max-w-6xl mx-auto flex justify-center">
               <img 
-                src={syllabus.image} 
-                alt={syllabus.title} 
+                src={syllabus.image}
+                alt={syllabus.title}
                 className="w-full h-auto object-contain rounded-xl sm:rounded-2xl shadow-[0_0_100px_rgba(0,0,0,0.8)] border border-white/10"
               />
             </div>

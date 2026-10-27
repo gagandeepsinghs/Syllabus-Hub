@@ -349,5 +349,68 @@ export const syllabuses = [
        { id: "m11", title: "BOOTSTRAP", category: "advanced", topics: ["What is Bootstrap", "Grid System", "Responsive Layouts", "Navbar, Footer, Cards", "Forms & Components", "Buttons, Alerts, Modals", "Creating a Complete Website Using Bootstrap", "Customization", "Real-world Projects"] },
        { id: "m12", title: "ANALYTICS & REPORTING", category: "practical", topics: ["Google Analytics 4 (GA4)", "Google Search Console", "Social Media Insights", "UTM Tracking", "Campaign Performance Analysis", "ROI & Conversion Tracking", "Creating Reports & Dashboards", "Data Visualization Basics"] }
     ]
+  },
+  {
+    id: "ai-automation",
+    title: "AI Automation",
+    subtitle: "Complete Syllabus",
+    description: "Build AI-powered workflows, agents, and business automations.",
+    icon: "Bot",
+    image: "/assets/AI Automation.png",
+    modules: [
+       { id: "m1", title: "AI & AUTOMATION FUNDAMENTALS", category: "foundation", topics: ["What Is AI and Automation?", "How AI Automation Works", "Use Cases & Real-World Examples", "Types of Automation (RPA, Workflow, AI Agents)", "Key Benefits & Business Impact"] },
+       { id: "m2", title: "PROMPT ENGINEERING", category: "foundation", topics: ["What Is a Prompt?", "Prompt Writing Techniques", "Role, Task & Context-Based Prompts", "Prompting for Content, Data & Automation", "Best Practices & Optimization"] },
+       { id: "m3", title: "WORKFLOW AUTOMATION (N8N / MAKE / ZAPIER)", category: "core", topics: ["Introduction to n8n, Make & Zapier", "Creating Automated Workflows", "Triggers, Actions & Integrations", "Data Handling & Conditions (IF/Else)", "Connecting Apps (Gmail, Drive, Sheets, Slack)", "Building End-to-End Automations"] },
+       { id: "m4", title: "AI INTEGRATION & API USAGE", category: "core", topics: ["What Is an API?", "Using OpenAI / ChatGPT API", "Integrating AI Models in Workflows", "Working with Google Gemini API", "Authentication & API Keys", "Practical AI Automation Examples"] },
+       { id: "m5", title: "AI CONTENT GENERATION", category: "core", topics: ["Generating Text, Images & Videos with AI", "Tools: ChatGPT, DALL-E, Canva AI", "Creating Marketing Content (Posts, Captions, Blogs)", "Video Creation with HeyGen / Synthesia / D-ID", "Automating Content Creation"] },
+       { id: "m6", title: "DATA & KNOWLEDGE AUTOMATION", category: "advanced", topics: ["Working with Data in Automations", "Google Sheets & Drive Automation", "Data Extraction & Processing", "Introduction to Vector Databases (ChromaDB)", "Working with Embeddings (Sentence Transformers)", "Building a Simple RAG Workflow"] },
+       { id: "m7", title: "AI AGENTS & LANGCHAIN", category: "advanced", topics: ["What Are AI Agents?", "Introduction to LangChain", "Building AI-Powered Agents", "Using Tools, Memory & Prompts", "RAG (Retrieval Augmented Generation) Basics", "Creating a Custom AI Assistant (Agent)"] },
+       { id: "m8", title: "BUSINESS & MARKETING AUTOMATION", category: "advanced", topics: ["Automating Social Media Posting", "Lead Capture & CRM Automation", "Email & WhatsApp Automation", "E-commerce Automation (Shopify / WooCommerce)", "Marketing Campaign Automation", "Reporting & Analytics Automation"] },
+       { id: "m9", title: "REAL-WORLD PROJECTS", category: "practical", topics: ["AI Social Media Auto-Posting System", "Lead Capture + Auto Email with AI", "AI Content Generation Pipeline", "E-commerce Automation (Shopify)", "Build a Custom AI Chatbot / Agent", "End-to-End Business Automation Project"] }
+    ]
+  },
+  {
+    id: "full-stack",
+    title: "Full Stack Development",
+    subtitle: "Complete Syllabus",
+    description: "Build and deploy complete web applications from frontend to backend.",
+    icon: "Terminal",
+    image: "/assets/Full Stack.png",
+    modules: [
+       { id: "m1", title: "WEB FUNDAMENTALS (HTML)", category: "foundation", topics: ["Introduction to Web & Internet", "HTML Structure & Elements", "Text, Links, Images, Media", "Lists, Tables & Forms", "Semantic HTML (header, nav, etc.)", "HTML Best Practices"] },
+       { id: "m2", title: "STYLING WITH CSS", category: "foundation", topics: ["CSS Basics & Selectors", "Box Model (Margin, Padding, Border)", "Positioning (Static, Relative, Absolute)", "Flexbox & Grid", "Responsive Design", "CSS Variables & Animations", "Media Queries"] },
+       { id: "m3", title: "JAVASCRIPT (CLIENT-SIDE)", category: "foundation", topics: ["JS Basics (Variables, Data Types)", "Operators & Control Flow", "Functions & Scope", "Arrays & Objects", "DOM Manipulation", "Events & Event Handling", "ES6+ (let/const, Arrow Functions, Destructuring, Promises, Async/Await)"] },
+       { id: "m4", title: "BOOTSTRAP", category: "core", topics: ["Bootstrap Introduction", "Grid System & Layouts", "Components (Navbar, Cards, Modal)", "Forms & Validation", "Utilities & Responsive Design", "Building Responsive UI Quickly"] },
+       { id: "m5", title: "REACT.JS (FRONTEND DEVELOPMENT)", category: "core", topics: ["Introduction to React & Setup", "Components (Functional & Class)", "JSX & Props", "State & useState Hook", "useEffect & Lifecycle", "Routing with React Router", "API Integration (Fetch / Axios)", "Project: React Frontend Application"] },
+       { id: "m6", title: "BACKEND DEVELOPMENT (NODE.JS & EXPRESS)", category: "core", topics: ["Introduction to Node.js", "Working with NPM & Modules", "Express.js Setup & Routing", "Middleware", "RESTful APIs (CRUD Operations)", "Error Handling & Validation", "Authentication (JWT Basics)"] },
+       { id: "m7", title: "DATABASE MANAGEMENT", category: "core", topics: ["Database Concepts & CRUD", "SQL with MySQL (Tables, Joins, Indexes)", "NoSQL with MongoDB (Documents, Collections, CRUD)", "Database Design & Relationships", "Connecting DB with Node.js", "Using Mongoose (for MongoDB)"] },
+       { id: "m8", title: "FULL STACK INTEGRATION", category: "advanced", topics: ["Connecting React with Node.js API", "User Authentication (JWT)", "CRUD Operations (Full Stack)", "File Uploads (Images / Documents)", "Environment Variables & Config", "Building a Complete Full Stack App"] },
+       { id: "m9", title: "VERSION CONTROL & DEPLOYMENT", category: "advanced", topics: ["Git Basics (Init, Add, Commit, Push)", "Working with GitHub (Repo, Branch, PR)", "Collaboration Workflow", "Deploy Frontend (Vercel / Netlify)", "Deploy Backend (Render / Railway)", "Environment & Production Setup"] },
+       { id: "m10", title: "ADVANCED TOPICS & BEST PRACTICES", category: "advanced", topics: ["Real-World Project Structure", "Error Handling & Logging", "Security Basics (CORS, Helmet, Rate Limit)", "API Testing with Postman", "Performance Optimization", "Code Cleanliness & Best Practices", "Introduction to Docker (Optional)"] },
+       { id: "m11", title: "REAL-WORLD PROJECTS (END-TO-END)", category: "practical", topics: ["Portfolio Website (HTML, CSS, JS)", "Task Manager (MERN Stack)", "E-commerce Website (MERN + Payment Gateway)", "Blog / Content Platform", "Custom Full Stack Application"] },
+       { id: "m12", title: "EXTRA / INDUSTRY SKILLS", category: "practical", topics: ["API Integration (Third-Party APIs)", "Basic CI/CD Workflow", "Hosting & Domain Setup", "Agile Development Basics", "Project Documentation (README)", "Interview Preparation & Resume Building"] }
+    ]
+  },
+  {
+    id: "hr",
+    title: "HR",
+    subtitle: "Complete Syllabus",
+    description: "Learn recruitment, employee relations, HR operations, and analytics.",
+    icon: "Briefcase",
+    image: "/assets/HR Complete Syllabus.png",
+    modules: [
+       { id: "m1", title: "HR FUNDAMENTALS & ROLE OVERVIEW", category: "foundation", topics: ["What Is HR & Its Importance", "Evolution of HR (Traditional to Strategic HR)", "Roles & Responsibilities of HR", "HR as a Business Partner", "Key HR Functions Overview", "HR Policies & Objectives"] },
+       { id: "m2", title: "TALENT ACQUISITION (RECRUITMENT)", category: "core", topics: ["Recruitment Process (End to End)", "Manpower Planning", "Job Description (JD) & Job Posting", "Sourcing (Job Portals, LinkedIn, Referrals)", "Resume Screening & Shortlisting", "Interview Process & Evaluation", "Offer, Onboarding & Joining"] },
+       { id: "m3", title: "EMPLOYEE ONBOARDING & ENGAGEMENT", category: "core", topics: ["Pre-boarding & Onboarding Process", "Induction & Orientation", "Employee Engagement Activities", "Probation Management", "Employee Communication", "Feedback & Engagement Metrics", "Building a Positive Work Culture"] },
+       { id: "m4", title: "PERFORMANCE MANAGEMENT", category: "core", topics: ["What Is Performance Management", "Goal Setting (KPIs & KRAs)", "Performance Appraisal Process", "Review, Feedback & 1:1 Meetings", "Performance Improvement Plan (PIP)", "Rewards & Recognition", "Linking Performance with Growth"] },
+       { id: "m5", title: "COMPENSATION & BENEFITS", category: "core", topics: ["Compensation Structure Basics", "Salary Components (CTC, Gross, Net)", "Statutory Benefits (PF, ESI, Gratuity)", "Incentives & Variable Pay", "Benefits & Perks (Insurance, Leave, etc.)", "Payroll Basics & Payroll Cycle", "Compensation Benchmarking"] },
+       { id: "m6", title: "LEARNING & DEVELOPMENT (L&D)", category: "core", topics: ["Importance of Employee Training", "Training Need Analysis (TNA)", "Designing Training Programs", "Training Methods (Online, Offline, On-the-Job)", "Learning Management Systems (LMS)", "Evaluating Training Effectiveness", "Career Development & Succession Planning"] },
+       { id: "m7", title: "EMPLOYEE RELATIONS & COMPLIANCE", category: "advanced", topics: ["What Is Employee Relations (ER)", "Managing Employee Issues & Grievances", "Disciplinary Action & Misconduct", "Workplace Policies & Code of Conduct", "Labour Laws Basics (Factories Act, Shops & Establishment Act, etc.)", "Statutory Compliance (PF, ESI, POSH, etc.)", "Maintaining a Healthy Work Environment"] },
+       { id: "m8", title: "HR ANALYTICS & REPORTING", category: "advanced", topics: ["Introduction to HR Analytics", "Key HR Metrics (Attrition, Hiring, Recruitment, Engagement)", "HR Dashboard in Excel / Google Sheets", "Data Analysis & Trend Identification", "Workforce Planning & Forecasting", "Reporting for Management", "Using Data for Better HR Decisions"] },
+       { id: "m9", title: "HR POLICIES & WORKPLACE CULTURE", category: "advanced", topics: ["Types of HR Policies", "Employee Handbook", "Leave & Attendance Policies", "Work From Home / Hybrid Policies", "Diversity, Equity & Inclusion (DEI)", "POSH – Prevention of Sexual Harassment", "Building & Sustaining Organizational Culture"] },
+       { id: "m10", title: "EXIT MANAGEMENT (OFFBOARDING)", category: "advanced", topics: ["Resignation & Exit Process", "Exit Interview & Feedback", "Notice Period Management", "Knowledge Transfer & Handover", "Full & Final Settlement (F&F)", "Retaining Top Talent (Retention Strategies)", "Analysis of Attrition & Reasons"] },
+       { id: "m11", title: "SOFT SKILLS FOR HR PROFESSIONALS", category: "practical", topics: ["Communication & Interpersonal Skills", "Interviewing & Active Listening", "Conflict Resolution", "Negotiation & Influencing", "Time & Priority Management", "Emotional Intelligence (EQ)", "Professional Etiquette & Leadership"] },
+       { id: "m12", title: "HR TECHNOLOGY & FUTURE TRENDS", category: "practical", topics: ["Introduction to HR Technology (HR Tech)", "HRMS / HRIS (Zoho, Keka, GreytHR, etc.)", "Automation in HR (Recruitment, Payroll)", "AI in HR (Resume Screening, Chatbots, etc.)", "People Analytics & Predictive HR", "Remote & Hybrid Workforce Management", "Future Trends in HR (AI, DEI, Well-being)"] }
+    ]
   }
 ];

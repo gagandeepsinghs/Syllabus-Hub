@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { useState, useEffect } from 'react';
 import Home from './pages/Home';
 import SyllabusPage from './pages/SyllabusPage';
+import PythonCareers from './pages/PythonCareers';
 
 function Layout({ children }) {
   const location = useLocation();
@@ -54,6 +55,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/python-careers" element={<PythonCareers />} />
           <Route path="/syllabus/:id" element={<SyllabusPage />} />
         </Routes>
       </Layout>
